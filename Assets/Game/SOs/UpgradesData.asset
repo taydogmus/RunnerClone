@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6889d8d9e3e257b4fa2cc24826dc9579, type: 3}
+  m_Name: UpgradesData
+  m_EditorClassIdentifier: 
+  AllUpgrades:
+  - upgradeType: 0
+    UpgradeLevels:
+    - Value: 0.5
+    - Value: 0.4
+    - Value: 0.3
+    - Value: 0.25
+    - Value: 0.2
+    - Value: 0.15
+    - Value: 0.1
+    upgradeSprite: {fileID: 21300000, guid: 3d01f9e7d9a6c8944b1086591d30d052, type: 3}
+    upgradeName: Fire Rate
+    upgradeDescription: Increase Fire Rate
+  - upgradeType: 1
+    UpgradeLevels:
+    - Value: 1.25
+    - Value: 1.5
+    - Value: 2
+    - Value: 2.5
+    - Value: 3
+    - Value: 3.5
+    - Value: 4
+    upgradeSprite: {fileID: 21300000, guid: 3d01f9e7d9a6c8944b1086591d30d052, type: 3}
+    upgradeName: Damage
+    upgradeDescription: Increase Fire Power
+  - upgradeType: 3
+    UpgradeLevels:
+    - Value: 1
+    - Value: 2
+    upgradeSprite: {fileID: 21300000, guid: 3d01f9e7d9a6c8944b1086591d30d052, type: 3}
+    upgradeName: Bounciness
+    upgradeDescription: Increase Bounce
+  - upgradeType: 2
+    UpgradeLevels:
+    - Value: 1
+    - Value: 2
+    upgradeSprite: {fileID: 21300000, guid: 3d01f9e7d9a6c8944b1086591d30d052, type: 3}
+    upgradeName: Formation
+    upgradeDescription: Increase Bullet Count
